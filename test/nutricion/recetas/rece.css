@@ -1,0 +1,250 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#cabezera{
+    top: 0;
+    background-color: #f6dfc7;
+    display: flex;
+    width: 100%;
+    border-bottom:solid black 3px ;
+}
+
+#name{
+    transition: all 0.5s ease; 
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 30px;
+    font-size: 70px;
+    color:rgb(92, 68, 68);
+    display: inline-block;     
+    border-radius: 5px;
+    box-shadow: none;           
+    padding: 10px;  
+    text-decoration: none;
+    font-family: none;
+}
+
+#name:hover{
+    color: rgb(12, 12, 11);           
+    transform: rotate(5deg);    
+    box-shadow: 0 0 15px #110906; 
+}
+
+nav{
+    color: rgb(2, 2, 2);
+    text-decoration: none;
+    margin-left: auto;
+}
+
+a{
+    transition: all 0.3s ease;
+    border-bottom: 2px solid transparent; 
+    display: inline-block;
+    font-size:30px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 40px;
+    color: black;
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+}
+
+#test:hover{
+    color:white;
+    font-size:38px;
+    border-color: black; 
+}
+
+#consejos:hover{
+    color: white;
+    font-size:38px;
+    border-color: black; 
+}
+
+#seccion:hover{
+    color: white;
+    font-size:38px;
+    border-color: black; 
+}
+
+#inicio{
+    margin-left: 300px;
+    width: 50%;
+    height: auto;
+    z-index: 1;
+    border-radius: 20px;
+}
+
+#recetas{
+    z-index: 2;
+    position: absolute;
+    margin-left: 505px;
+    margin-top: 230px;
+    font-weight: normal;
+    font-family: 'Young Serif', serif;
+    font-size: 90px;
+}
+
+body{
+    background-color: #EEEEEE;
+}
+
+.posicion-verde{
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+    background-color: #A4BFA7;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.7);
+    border: 2px solid black;
+}
+
+.posicion-cafe{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 30px;
+    margin-top: 20px;
+    display: block;
+    background-color: #C98860 ;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.7);
+    border: 2px solid black;
+}
+
+#button {
+    text-align: center;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 20px;
+    width: 15%;
+    display: block;
+    margin-left: auto;
+    padding: 3px;
+    background-color: #050c0c;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border: 2px solid black; 
+    transition: background-color 0.4s, color 0.4s; 
+}
+
+#button:hover {
+    background-color: rgb(241, 241, 233);
+    color: black;
+    border: 2px solid black; 
+}
+
+.container{
+    margin-left: 20px;
+    position: relative;
+    width: 1200px;  
+    height: 300px; 
+    overflow: hidden; 
+    display: inline-block;
+}
+
+.img1{
+    width: 30%;
+    height: 100%;
+    display: block;
+    position: relative;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.7);
+    z-index: 2;
+}
+
+.img2{
+    width: 30%;
+    height: 100%;
+    display: block;
+    position: relative;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.7);
+    margin-left: 830px;
+    z-index: 2;
+}
+
+
+.info-box {
+    position: absolute;
+    bottom: 0;  
+    left: -30%;    
+    width: 600px;  
+    height: 290px;  
+    background-color: rgba(255, 255, 255, 0.8); 
+    transition: left 0.5s; 
+    display: block;
+    z-index: 1;
+}
+
+.info-box2 {
+    position: absolute;
+    bottom: 0;  
+    left: 100%;    
+    width: 600px;   
+    height: 290px; 
+    background-color: rgba(255, 255, 255, 0.8);
+    transition: left 0.5s;
+    display: block;
+    z-index: 1;
+}
+
+.info-box h2{
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: 'Poppins', sans-serif;
+    border-bottom: 2px solid black;
+    text-align: center;
+}
+
+.info-box2 h2{
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: 'Poppins', sans-serif;
+    border-bottom: 2px solid black;
+    text-align: center;
+}
+
+.info-box p{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 20px;
+}
+
+.info-box2 p{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 20px;
+}
+
+.info-box h3{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 15px;
+}
+
+.info-box2 h3{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 15px;
+}
+
+#interlineado{
+    border-bottom: black;
+}
+
+.container:hover .info-box {
+    left: calc(46% - 200px); 
+}
+
+.container:hover .info-box2 {
+    left: calc(36% - 200px); 
+}
+
+
+
+
+
+
